@@ -8,5 +8,5 @@ class MyViewlet(ViewletBase):
     def available(self):
         qi = getToolByName(self.context, 'portal_quickinstaller')
         ids = [p['id'] for p in qi.listInstalledProducts()]
-        return 'jquery.booksmarks' in ids
+        return 'vs.jquerybookmarks' in ids
 

@@ -4,13 +4,11 @@
     i18n_domain="vs.jquerybookmarks">
 
   <browser:viewlet
-      name="vs.jquerybookmark"
-      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+      name="vs.jquerybookmarks"
+      manager="plone.app.layout.viewlets.interfaces.IBelowContent"
       class=".viewlets.MyViewlet"
       permission="zope2.View"
       />
-
-  <!-- Zope 3 browser resources -->
 
   <browser:resourceDirectory
       name="vs.jquerybookmarks.images"
