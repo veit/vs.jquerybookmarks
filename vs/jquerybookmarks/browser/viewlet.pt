@@ -1,10 +1,12 @@
-<div id="jquery-bookmark">
-    hello world
-</div> 
+<tal:if condition="view/available">
+    <div id="jquery-bookmark">
+      <!-- placeholder for bookmarks -->
+    </div> 
 
-<script type="text/javascript">
-    $(document).ready(function() {
-        $('#jquery-bookmark').bookmark();
-    });
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#jquery-bookmark').bookmark();
+        });
 
-</script>
+    </script>
+</tal:if>

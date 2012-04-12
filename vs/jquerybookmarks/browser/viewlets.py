@@ -1,8 +1,12 @@
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 from plone.app.layout.viewlets.common import ViewletBase
+from Products.CMFCore.utils import getToolByName
 
 class MyViewlet(ViewletBase):
     render = ViewPageTemplateFile('viewlet.pt')
 
-    def update(self):
-        self.computed_value = 'any output'
+    def available(self):
+        qi = getToolByName(self.context, 'portal_quickinstaller')
+        ids = [p['id'] for p in qi.listInstalledProducts()]
+        return 'jquery.booksmarks' in ids
+
