@@ -25,7 +25,9 @@ vs/jquerybookmarks/browser/interfaces.py
 vs/jquerybookmarks/browser/viewlet.pt
 vs/jquerybookmarks/browser/viewlets.py
 vs/jquerybookmarks/browser/images/README.txt
+vs/jquerybookmarks/browser/javascript/jquery.bookmark.min.js
 vs/jquerybookmarks/browser/stylesheets/README.txt
+vs/jquerybookmarks/browser/stylesheets/jquery.bookmark.css
 vs/jquerybookmarks/browser/stylesheets/main.css
 vs/jquerybookmarks/locales/README.txt
 vs/jquerybookmarks/profiles/default/cssregistry.xml
