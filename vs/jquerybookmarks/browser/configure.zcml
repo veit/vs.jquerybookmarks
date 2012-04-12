@@ -29,7 +29,7 @@
   <!-- Zope 3 browser resources -->
 
   <browser:resourceDirectory
-      name="vs.jquerybookmarks.javascript"
+      name="vs.jquerybookmarks.javascripts"
       directory="javascript"
       />
   <browser:resourceDirectory
