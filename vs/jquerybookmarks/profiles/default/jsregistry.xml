@@ -8,5 +8,9 @@
     id="++resource++vs.jquerybookmarks.javascripts/jquery.bookmark.min.js"
     cacheable="True" compression="safe" cookable="False"
     enabled="True" expression=""  inline="False"/>
+ <javascript
+    id="++resource++vs.jquerybookmarks.javascripts/jquery.bookmark.ext.min.js"
+    cacheable="True" compression="safe" cookable="False"
+    enabled="True" expression=""  inline="False"/>
 
 </object>
