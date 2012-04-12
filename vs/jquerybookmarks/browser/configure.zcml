@@ -28,26 +28,13 @@
 
   <!-- Zope 3 browser resources -->
 
-  <!-- Resource directory for images
-    See vs/jquerybookmarks/browser/images/README.txt
-    for more information about registering images as Zope 3 browser
-    resources.
-  -->
   <browser:resourceDirectory
-      name="vs.jquerybookmarks.images"
-      directory="images"
-      layer=".interfaces.IThemeSpecific"
+      name="vs.jquerybookmarks.javascript"
+      directory="javascript"
       />
-
-  <!-- Resource directory for stylesheets
-    See vs/jquerybookmarks/browser/stylesheets/README.txt
-    for more information about registering stylesheets as Zope 3 browser
-    resources.
-  -->
   <browser:resourceDirectory
       name="vs.jquerybookmarks.stylesheets"
       directory="stylesheets"
-      layer=".interfaces.IThemeSpecific"
       />
 
 </configure>
