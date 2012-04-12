@@ -13,6 +13,16 @@ Installation
 The standard Plone installation procedure applies (add ``vs.jquerybookmarks`` to your
 buildout configuration, re-run buildout and add install it within your Plone site).
 
+Customizing
+===========
+Out of the box ``vs.jquerybookmarks`` will display icons for all available
+services. The suggested approach to tailor down the services to your needs is
+to override/customize ``vs.jquerybookmarks/vs/jquerybooks/browser/viewlet.pt``
+template using ``z3c.jbot`` inside your own policy package. Due to the huge
+number of supported services and formating options there will not be a
+through-the-web configuration option.
+
+
 Licence
 =======
 vs.jquerybookmarks is published under the GNU Public Licence V2 (GPL 2)
