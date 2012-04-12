@@ -1,23 +1,26 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.1.2'
+version = '0.1.3'
 
 setup(name='vs.jquerybookmarks',
       version=version,
-      description="jquery.bookmarks integration",
+      description="jquery.bookmark integration with Plone 4",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
         "Framework :: Plone",
+        "Framework :: Plone :: 4.0",
+        "Framework :: Plone :: 4.1",
+        "Framework :: Plone :: 4.2",
         "Programming Language :: Python",
         ],
       keywords='',
-      author='',
-      author_email='',
-      url='http://svn.plone.org/svn/collective/',
+      author='Andreas Jung',
+      author_email='infp@zopyx.com',
+      url='http://pypi.python.org/pypi/vs.jquerybookmarks',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['vs'],
