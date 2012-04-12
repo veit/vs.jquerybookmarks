@@ -22,6 +22,14 @@ template using ``z3c.jbot`` inside your own policy package. Due to the huge
 number of supported services and formating options there will not be a
 through-the-web configuration option.
 
+Code
+====
+- https://github.com/zopyx/vs.jquerybookmarks
+
+Issue tracker
+=============
+- https://github.com/zopyx/vs.jquerybookmarks/issues
+
 
 Licence
 =======
