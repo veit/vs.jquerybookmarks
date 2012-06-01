@@ -4,9 +4,10 @@
     </div> 
 
     <script type="text/javascript">
-        $(document).ready(function() {
-            $('#jquery-bookmark').bookmark();
-        });
-
+        (function($) {
+            $(document).ready(function() {
+                $('#jquery-bookmark').bookmark();
+            });
+        })(jQuery);
     </script>
 </tal:if>
